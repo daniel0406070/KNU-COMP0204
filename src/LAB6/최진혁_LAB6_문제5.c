@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int m;
+    long long int m;
     double o8=0,o4=0,o2=0,o0=0;
     
 
     printf("연봉 입력 : ");
-    scanf("%d", &m);
+    scanf("%lld", &m);
     printf("\t");
     printf("입력한 연봉 : %d\n", m);
     if(m>80000000) {
