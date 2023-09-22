@@ -28,15 +28,15 @@ int main(){
     o0*=0.09;
     
     printf("\n\t");
-    printf("세금 36%c 적용 : %0.0lf\n", 37, o8);
+    printf("세금 36%c 적용 : %10.0lf\n", 37, o8);
     printf("\t");
-    printf("세금 27%c 적용 : %0.0lf\n", 37,o4);
+    printf("세금 27%c 적용 : %10.0lf\n", 37,o4);
     printf("\t");
-    printf("세금 18%c 적용 : %0.0lf\n", 37,o2);
+    printf("세금 18%c 적용 : %10.0lf\n", 37,o2);
     printf("\t");
-    printf("세금 9%c 적용  : %0.0lf\n", 37,o0);
+    printf("세금 9%c 적용  : %10.0lf\n", 37,o0);
     printf("\t");
-    printf("전체 세금은   : %0.0lf입니다.\n", o8+o4+o2+o0);
+    printf("전체 세금은   : %10.0lf입니다.\n", o8+o4+o2+o0);
 
     
 }
