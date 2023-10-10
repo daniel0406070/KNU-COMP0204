@@ -21,5 +21,5 @@ int main(){
     printf("전역 변수 출력 : %d\n", run_p);
     printf("정적 지역 변수 출력 : %d\n", s);
 
-    
+    //최진혁 바보
 }
