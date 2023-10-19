@@ -27,5 +27,4 @@ int main(){
         printf("%0.3lf %c %0.3lf = %0.3lf\n",a,str[i],b,func[i](a,b));
     }
 
-    
 }
