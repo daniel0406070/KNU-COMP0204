@@ -7,9 +7,9 @@ int strist(char *src, char *ist, int index){
     if(index>src_len) return 0;
     
     for(int i=src_len-1; i>index-1; i--){
-        src[len+i]=src[i];
+        src[len+i-1]=src[i];
     }
-    for(int i=0; ist[i]!='\0'; i++){
+    for(int i=0; ist[i]!='\n'; i++){
         src[index+i]=ist[i];
     }
 
@@ -25,7 +25,10 @@ int main(){
     char ist[100]={0,};
     fgets(ist, sizeof(ist), stdin);
 
-    int check=strist(str, ist, 8);
+    int idx;
+    scanf("%d", &idx);
+
+    int check=strist(str, ist, idx);
 
     if(check){
         printf("result : %s\n", str);
