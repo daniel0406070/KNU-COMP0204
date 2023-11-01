@@ -6,7 +6,7 @@ int main(){
     fgets(str, sizeof(str), stdin);
 
     int cnt=0;
-    for(int i=0; str[i]!='\0'; i++){
+    for(int i=0; str[i]!='\n'; i++){
         cnt++;
         if(str[i]<0) { //유니코드 검출
             i+=2;
